@@ -12,6 +12,9 @@
     <suppress checks="MethodLength"
               files="src/main/java/com/redhat/patriot/network_controll/FloydWarshallDemo.java"
               lines="0-300"/>
+    <suppress checks="MethodLength"
+              files="src/main/test/java/FloydWarshallTest.java"
+              lines="0-200"/>
 
     <suppress checks="Javadoc"
               files="src/main/java/com/redhat/patriot/network_controll/FloydWarshallDemo.java"
