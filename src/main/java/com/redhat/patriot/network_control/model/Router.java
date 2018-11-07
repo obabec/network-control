@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Router class.
+ * Router class represents docker container built as router with network-control apis.
  */
 public class Router {
     private String name;

@@ -5,7 +5,8 @@ import com.redhat.patriot.network_control.CalculatedRouteList;
 import com.redhat.patriot.network_control.model.routes.CalcRoute;
 
 /**
- * Network class.
+ * Network class representing docker network with additional informations
+ * like calculated routes to other networks.
  */
 public class Network {
     @JsonIgnore

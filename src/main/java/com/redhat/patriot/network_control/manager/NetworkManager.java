@@ -23,7 +23,8 @@ import java.util.HashSet;
 import java.util.Map;
 
 /**
- * The type Network manager.
+ * Network manager is providing basic topology requirement methods. Only via network manager is collaborating
+ * with network-simulator api.
  */
 public class NetworkManager {
 

@@ -1,7 +1,7 @@
 package com.redhat.patriot.network_control.model.routes;
 
 /**
- * Calculated route. Including all necessary info describe routes.
+ * Calculated route. Including all necessary info to describe routes.
  */
 public class CalcRoute {
     private NextHop nextHop;

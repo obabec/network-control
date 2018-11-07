@@ -1,9 +1,17 @@
 # Network control
 
-Main goal of api is provide full network control from scratch i. e create docker
+Main goal of this Java API is provide full network control from scratch i. e create docker
 networks, containers, connect them together as they are in topology,
 calculate shortest paths, set routes to routers (container) routing table, simulate 
 crash on link.
+
+Currently supports:
+
+* Physical network creating including routers
+* Calculation shortest paths
+* Update routers routing tables
+* Set default gateways on routers
+* Deploy Java application into docker container
 
 ## Getting Started
 
@@ -11,7 +19,7 @@ These instructions will get you a copy of the project up
 and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-Before installing you need to download and compile network simulator:
+Before installing you need to download, compile and install network simulator:
 ```
 git clone https://github.com/PatrIoT-Framework/network-simulator-example.git
 cd network-simulator-example
